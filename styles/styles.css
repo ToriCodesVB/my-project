@@ -1,0 +1,30 @@
+:root {
+    --default-font-family: 'Josefin Slab', serif;
+    --heading-font-family: 'Great vibes', serif;
+}
+body {
+    max-width: 100%;
+    background-image: url('bg-img.jpg');
+    background-color: #ccc;
+    background-size: cover;
+}
+.navbar {
+    font-family: var(--default-font-family);
+}
+h2, h3 {
+    font-family: var(--default-font-family);
+}
+h1 {
+    font-family: var(--heading-font-family);
+    font-size: 75px;
+}
+.hero {
+    color: #F9F7FD;
+    text-align: center;
+    padding: 80px 20px;
+}
+p {
+    font-family: var(--default-font-family);
+    color: #F9F7FD;
+    font-size: 30px;
+}
