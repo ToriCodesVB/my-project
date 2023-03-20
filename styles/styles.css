@@ -2,29 +2,73 @@
     --default-font-family: 'Josefin Slab', serif;
     --heading-font-family: 'Great vibes', serif;
 }
+
 body {
     max-width: 100%;
     background-image: url('bg-img.jpg');
     background-color: #ccc;
     background-size: cover;
 }
+
 .navbar {
     font-family: var(--default-font-family);
 }
-h2, h3 {
+
+h2,
+h3 {
     font-family: var(--default-font-family);
 }
+
 h1 {
     font-family: var(--heading-font-family);
-    font-size: 75px;
+    font-size: 96px;
 }
+
 .hero {
     color: #F9F7FD;
     text-align: center;
     padding: 80px 20px;
 }
+
 p {
     font-family: var(--default-font-family);
     color: #F9F7FD;
     font-size: 30px;
+}
+
+.btn-outline-light {
+    font-family: var(--default-font-family);
+    font-size: 25px;
+}
+
+.project-description {
+    padding: 10px 40px;
+}
+
+.project-description h2 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 45px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
