@@ -39,6 +39,7 @@ p {
 .btn-outline-light {
     font-family: var(--default-font-family);
     font-size: 25px;
+    font-weight: bolder;
 }
 
 .project-description {
@@ -52,9 +53,10 @@ p {
     margin-top: 0;
     font-weight: bolder;
 }
+
 .inquiry {
     padding: 70px 60px;
-    border: 2px solid #F9F7FC ;
+    border: 2px solid #F9F7FC;
     border-radius: 10px;
 }
 
@@ -65,20 +67,40 @@ p {
     margin-top: 0;
     font-weight: normal;
 }
+
 .email-link {
     color: #E4F4FE;
     font-family: var(--default-font-family);
     font-size: 40px;
     text-decoration: none;
 }
+
 .email-link:hover {
     color: white;
     text-decoration: underline;
 }
+
 .fa-brands {
     color: white;
     font-size: 35px;
     padding: 1rem;
+}
+
+.about {
+    color: #F9F7FD;
+    padding: 80px 20px;
+    margin-top: 10px;
+}
+img {
+    margin-top: 200px;
+    
+}
+.about h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.about h3 {
+    font-weight: bold;
+    font-size: 40px;
 }
 
 @media (max-width: 900px) {
