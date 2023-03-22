@@ -91,16 +91,29 @@ p {
     padding: 80px 20px;
     margin-top: 10px;
 }
-img {
-    margin-top: 200px;
-    
-}
+
 .about h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .about h3 {
     font-weight: bold;
     font-size: 40px;
+}
+
+.my-photo {
+    margin-top: 150px;
+}
+
+.work {
+    margin-top: 100px;
+    
+}
+.work h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
 
 @media (max-width: 900px) {
