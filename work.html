@@ -30,7 +30,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Viktoriia Baburkina</a>
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          >Viktoriia Baburkina</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -44,18 +46,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Home</a
+              <a class="nav-link" href="index.html" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="About Viktoriia"
+                >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="work.html"
+                title="Viktoriia's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html" title="Contact Viktoriia"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -67,53 +77,66 @@
 
         <div class="row mt-5">
           <div class="col-sm-4">
-            <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+            <img
+              src="images/yogurt.png"
+              class="img-fluid p-2 shadow rounded"
+              alt="Yogurt-logo" />
             <h3>Yogurt Project</h3>
             <p>Built with HTML and CSS</p>
           </div>
           <div class="col-sm-4">
             <img
               src="images/weather-app.png"
-              class="img-fluid p-2 shadow rounded" />
+              class="img-fluid p-2 shadow rounded"
+              alt="Weather-logo" />
             <h3>Weather App</h3>
             <p>Built with HTML, CSS and JavaScript</p>
           </div>
           <div class="col-sm-4">
             <img
               src="images/cat-site.png"
-              class="img-fluid p-2 shadow rounded" />
+              class="img-fluid p-2 shadow rounded"
+              alt="Cat-site-logo" />
             <h3>Cat Breed Project</h3>
             <p>Built with HTML, CSS and JavaScript</p>
           </div>
         </div>
       </div>
-      <div class="inquiry mt-5">
+      <div class="inquiry mt-5 d-none d-lg-block">
         <div class="row">
           <div class="col-sm-8">
             <h2 class="mb-3">Work Inquiry</h2>
             <p>Let's work together and i'll help you by all my best</p>
           </div>
           <div class="col-sm-4 mt-3">
-            <a href="contact.html" class="btn btn-outline-light btn-lg"
+            <a
+              href="contact.html"
+              class="btn btn-outline-light btn-lg"
+              title="Contact-button"
               >Let`s talk here</a
             >
           </div>
         </div>
       </div>
       <div class="mt-5 mb-3 text-center">
-        <a href="mailto:toricodesvb@gmail.com" class="email-link"
+        <a
+          href="mailto:toricodesvb@gmail.com"
+          class="email-link"
+          title="Email-adress"
           >toricodesvb@gmail.com</a
         >
         <br />
 
-        <a href="http://pin.it/137ho4q"
+        <a href="http://pin.it/137ho4q" title="Pinterest-icon"
           ><i class="fa-brands fa-pinterest"></i
         ></a>
-        <a href="https://instagram.com/tori_codes?igshid=ZDdkNTZiNTM="
+        <a
+          href="https://instagram.com/tori_codes?igshid=ZDdkNTZiNTM="
+          title="Instagram-icon"
           ><i class="fa-brands fa-instagram"></i
         ></a>
 
-        <a href="https://www.linkedin.com/in/toricodes/"
+        <a href="https://www.linkedin.com/in/toricodes/" title="Linkedin-icon"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
