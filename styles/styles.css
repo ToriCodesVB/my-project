@@ -107,14 +107,28 @@ p {
 
 .work {
     margin-top: 100px;
-    
+
 }
+
 .work h2 {
     text-align: center;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
+
+
+.work h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.work p {
+    font-size: 20px;
+    text-align: center;
+}
+
 
 @media (max-width: 900px) {
     h1 {
@@ -134,6 +148,7 @@ p {
         padding: 0;
         text-align: center;
     }
+
     .my-photo {
         margin-top: 0;
     }
