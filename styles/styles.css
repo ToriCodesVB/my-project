@@ -134,4 +134,7 @@ p {
         padding: 0;
         text-align: center;
     }
+    .my-photo {
+        margin-top: 0;
+    }
 }
