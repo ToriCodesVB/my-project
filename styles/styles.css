@@ -133,6 +133,13 @@ p {
     font-size: 20px;
     text-align: center;
 }
+.host-link {
+    color: #F9F7FC;
+}
+.host-link a {
+    text-decoration: none;
+    color: #6CB7D0;
+}
 
 
 @media (max-width: 900px) {
