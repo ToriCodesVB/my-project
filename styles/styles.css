@@ -7,12 +7,16 @@ body {
     max-width: 100%;
     background-image: url('bg-img.jpg');
     background-color: #ccc;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .navbar {
     font-family: var(--default-font-family);
 }
+
 .navbar-brand {
     font-weight: bold;
 }
@@ -32,6 +36,7 @@ h1 {
     text-align: center;
     padding: 80px 20px;
 }
+
 .hero h2 {
     font-size: 50px;
 }
@@ -97,6 +102,7 @@ p {
     padding: 80px 20px;
     margin-top: 10px;
 }
+
 .about h2 {
     font-size: 50px;
 }
@@ -129,13 +135,16 @@ p {
     text-align: center;
     font-size: 30px;
 }
+
 .work p {
     font-size: 20px;
     text-align: center;
 }
+
 .host-link {
     color: #F9F7FC;
 }
+
 .host-link a {
     text-decoration: none;
     color: #6CB7D0;
